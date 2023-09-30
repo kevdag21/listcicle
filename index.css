@@ -25,13 +25,40 @@ body{
     margin: auto;
 }
 
-#headerimg{
-    height: 100px;
-    margin-top: 300px;
+#agile_img{
+    height: 200px;
+}
+
+.header_profile{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(51, 51, 51);
+    display: block;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(66,180,214)
+}
+
+a:hover{
+    font-weight: bold;
+    text-decoration: un;
+}
+
+#name{
+    font-weight: bold;
+}
+
+#update_date{
+    font-style: italic;
 }
 
 .header_title{
     margin: auto;
+     margin-top: 200px;
 }
 
 #title{
@@ -42,8 +69,9 @@ body{
 }
 
 .list{
-    width: 66.67%;
-    top: 10;
+    width: 60%;
+    margin-top: 80px;
+    padding: 30px;
 }
 
 .list_title{
